@@ -4,13 +4,12 @@ import { SlideData } from "./Components/Slider/SlideData";
 import banner from "./Components/images/fashion-banner.png";
 import visacard from "./Components/images/visa-card.jpg";
 import Brandslider from "./Components/Brand/Brandslider";
-import Header from "./Components/Header/Noon/src/component/Header/Header";
-
+import Header from "./Components/Header/Header";
 
 export default function App() {
   return (
     <div>
-      <Header />
+     <Header />
       <img src={visacard} width="100%"/>
       <Flex>
         <Box flex={2}>
