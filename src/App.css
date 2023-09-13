@@ -1,0 +1,11 @@
+.App {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+h1{
+  margin:0px;
+}
+.react-multi-carousel-dot-list {
+  bottom: -20px;
+}
