@@ -1,0 +1,30 @@
+
+.reason-container{
+    
+    margin: 0px auto;
+    width:95%;
+    display: flex;
+}
+.reason-box{
+    padding: 10px;
+    width: 33%;
+    margin:10px;
+    background-color: #fff;
+}
+.reason-allbox{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.topbox{
+    height:auto;
+    margin:10px 10px;
+    width:45%;
+}
+.megabox,.focusbox{
+    padding: 10px;
+    width: 33%; 
+    margin:10px;
+ background-color: #fff;
+
+}

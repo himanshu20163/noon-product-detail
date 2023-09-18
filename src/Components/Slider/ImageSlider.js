@@ -7,7 +7,7 @@ const ImageSlider = ({ slides }) => {
   return (
     <Carousel infiniteLoop>
       {slides.map((slide) => {
-        return <Image src={slide.image} height="auto" width="800px" />;
+        return <Image src={slide.image} height="210" width="800px" />;
       })}
     </Carousel>
   );

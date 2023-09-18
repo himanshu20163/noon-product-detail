@@ -30,7 +30,7 @@ const Brandslider = () => {
   };
 
   return (
-    <div>
+    <div style={{margin:"0px 50px",backgroundColor:"#fff",padding:"20px "}}>
 
       <Carousel
         swipeable={false}

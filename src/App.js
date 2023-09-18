@@ -5,13 +5,18 @@ import banner from "./Components/images/fashion-banner.png";
 import visacard from "./Components/images/visa-card.jpg";
 import Brandslider from "./Components/Brand/Brandslider";
 import Header from "./Components/Header/Header";
+import Allbox from "./Components/Sectionpart-2/Allbox";
+import "./App.css"
+import Fastdeliverybox from "./Components/Section-part3/Fastdeliverybox";
+import Allrecommandbox from "./Components/Section-part4/Allrecommandbox";
+import Footer from "./Components/Sectionpart5/Noon/src/component/Footer/Footer";
+import AllMainproduct from "./Components/Sectionpart5/Noon/src/component/Main/AllMainproduct";
 
 export default function App() {
   return (
     <div>
      <Header />
-      <img src={visacard} width="100%"/>
-      <Flex>
+      <Flex style={{margin:"0px 50px",height:"auto"}}>
         <Box flex={2}>
           <div>
             <ImageSlider slides={SlideData} />
@@ -24,6 +29,11 @@ export default function App() {
         </Box>
       </Flex>
       <Brandslider />
+      <Allbox />
+      <Fastdeliverybox />
+      <Allrecommandbox />
+      <AllMainproduct />
+      <Footer />
     </div>
   );
 }
