@@ -11,12 +11,13 @@ import Fastdeliverybox from "./Components/Section-part3/Fastdeliverybox";
 import Allrecommandbox from "./Components/Section-part4/Allrecommandbox";
 import Footer from "./Components/Sectionpart5/Noon/src/component/Footer/Footer";
 import AllMainproduct from "./Components/Sectionpart5/Noon/src/component/Main/AllMainproduct";
+import Productcategories from "./Components/Sectionpart6/Productcategories";
 
 export default function App() {
   return (
     <div>
      <Header />
-      <Flex style={{margin:"0px 50px",height:"auto"}}>
+      {/* <Flex style={{margin:"0px 50px",height:"auto"}}>
         <Box flex={2}>
           <div>
             <ImageSlider slides={SlideData} />
@@ -32,7 +33,8 @@ export default function App() {
       <Allbox />
       <Fastdeliverybox />
       <Allrecommandbox />
-      <AllMainproduct />
+      <AllMainproduct /> */}
+      <Productcategories />
       <Footer />
     </div>
   );

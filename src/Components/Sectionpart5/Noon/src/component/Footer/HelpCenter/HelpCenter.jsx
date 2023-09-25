@@ -12,7 +12,6 @@ import React, { useState } from 'react'
 import help from '../../../assets/help.svg'
 import care from '../../../assets/care.svg'
 
-
 const HelpCenter = () => {
     const [Disabled, setDisabled] = useState(null);
 

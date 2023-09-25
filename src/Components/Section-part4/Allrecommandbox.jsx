@@ -3,7 +3,6 @@ import "react-multi-carousel/lib/styles.css";
 import applephone from "./apple-phone.jpg"
 import Recommandbox from "./Recommandbox";
 import lipstik from "./lipstik.jpg"
-
  
 const Allrecommandbox = () => {
   const responsive = {

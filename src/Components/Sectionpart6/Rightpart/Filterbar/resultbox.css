@@ -1,0 +1,16 @@
+.topresultbox{
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-result-box{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
