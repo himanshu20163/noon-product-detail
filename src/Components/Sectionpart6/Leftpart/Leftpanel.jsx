@@ -12,7 +12,7 @@ import {
     RangeSliderTrack,
     RangeSliderFilledTrack,
     RangeSliderThumb,
-    Checkbox, CheckboxGroup,
+    Checkbox,
 
 } from '@chakra-ui/react'
 

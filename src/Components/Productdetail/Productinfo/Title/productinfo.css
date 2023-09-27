@@ -1,0 +1,8 @@
+.pay-interset-box{
+    width:100%;
+    border:1px solid red;
+    border-radius: 10px;
+}
+.pay-interset-box img{
+    padding-left: 20px;
+}

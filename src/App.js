@@ -12,6 +12,8 @@ import Allrecommandbox from "./Components/Section-part4/Allrecommandbox";
 import Footer from "./Components/Sectionpart5/Noon/src/component/Footer/Footer";
 import AllMainproduct from "./Components/Sectionpart5/Noon/src/component/Main/AllMainproduct";
 import Productcategories from "./Components/Sectionpart6/Productcategories";
+import Productitle from "./Components/Productdetail/Productinfo/Title/Productitle";
+import Allproductcomponent from "./Components/Productdetail/Allproductcomponent";
 
 export default function App() {
   return (
@@ -34,7 +36,8 @@ export default function App() {
       <Fastdeliverybox />
       <Allrecommandbox />
       <AllMainproduct /> */}
-      <Productcategories />
+      {/* <Productcategories /> */}
+     <Allproductcomponent />
       <Footer />
     </div>
   );
